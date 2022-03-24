@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Book from './components/Book';
+import AddBook from './components/AddBook';
 
 class App extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class App extends React.Component {
       <div className="nav">
         <Navbar />
         <Book />
+        <AddBook />
       </div>
     );
   }
