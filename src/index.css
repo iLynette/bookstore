@@ -134,3 +134,47 @@
   margin-top: 10px;
   border: none;
 }
+
+hr {
+  margin: 20px;
+  opacity: 50%;
+}
+
+.add h3 {
+  padding: 0 20px 20px 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.bTitle {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 50%;
+  padding: 15px;
+  margin-left: 20px;
+  border: 1px solid #e8e8e8;
+}
+
+.field {
+  background-color: #fff;
+  width: 25%;
+  padding: 15px;
+  margin-left: 20px;
+  border: 1px solid #e8e8e8;
+  opacity: 50%;
+  font-size: 15px;
+}
+
+.buttn {
+  width: 15%;
+  padding: 15px;
+  margin-left: 20px;
+  background-color: #0290ff;
+  color: #fff;
+  border: 1px solid #e8e8e8;
+}

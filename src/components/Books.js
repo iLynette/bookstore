@@ -9,6 +9,7 @@ class Books extends React.Component {
           <Book />
           <Book />
           <Book />
+          <hr />
           <AddBook />
       </div>
     );
