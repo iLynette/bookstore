@@ -41,8 +41,96 @@
 .categoriesLink {
   text-decoration: none;
   font-size: 20px;
-  color: transparent;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  color: #000;
+  opacity: 50%;
   text-transform: uppercase;
   font-weight: 100;
+}
+
+.bookItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 1px;
+  margin: 20px;
+  padding: 20px;
+  height: 10.625rem;
+}
+
+.details {
+  opacity: 60%;
+}
+
+.title {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.375rem;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  font-weight: bold;
+}
+
+.name {
+  color: #4386bf;
+  font-size: 1.001rem;
+  font-weight: 300;
+}
+
+.action {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-top: 18px;
+  color: #4386bf;
+  font-size: 1.1rem;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.status {
+  font-size: 20px;
+  opacity: 50%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+}
+
+.chapter span {
+  opacity: 50%;
+}
+
+.chapter h3 {
+  color: #121212;
+  letter-spacing: -0.4px;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.btn {
+  width: 11.5rem;
+  height: 2.063rem;
+  background-color: #0290ff;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 10px;
+  border: none;
 }

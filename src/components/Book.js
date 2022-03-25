@@ -18,12 +18,12 @@ export default class Book extends React.Component {
           </div>
           <div className="progress">
               <span>64%</span>
-              <span>Completed</span>
+              <span className="status">Completed</span>
           </div>
           <div className="chapter">
               <span>CURRENT CHAPTER</span>
               <h3>Chapter 17</h3>
-              <button type="button">Update progress</button>
+              <button type="button" className="btn">Update progress</button>
           </div>
       </div>
     );
