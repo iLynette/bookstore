@@ -1,9 +1,7 @@
 import React from 'react';
 
-export default class Book extends React.Component {
-  render() {
-    return (
-      <div className="bookItems">
+const Book = () => (
+    <div className="bookItems">
           <div className="bookDetails">
               <span className="details">Action</span>
               <h3 className="title">the hunger games</h3>
@@ -26,6 +24,6 @@ export default class Book extends React.Component {
               <button type="button" className="btn">Update progress</button>
           </div>
       </div>
-    );
-  }
-}
+);
+
+export default Book;

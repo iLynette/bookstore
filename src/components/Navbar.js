@@ -1,10 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export default class Nav extends React.Component {
-  render() {
-    return (
-        <nav className="navBar">
+const Navbar = () => (
+  <nav className="navBar">
           <h3>Bookstore CMS</h3>
           <div className="navItems">
             <ul className="navMenu">
@@ -13,6 +11,6 @@ export default class Nav extends React.Component {
             </ul>
           </div>
         </nav>
-    );
-  }
-}
+);
+
+export default Navbar;
