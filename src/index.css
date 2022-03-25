@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 70px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px #858585;
+}
+
+.navBar h3 {
+  font-size: 1.875rem;
+  color: #0290ff;
+  line-height: normal;
+  width: 15rem;
+  font-weight: bold;
+  letter-spacing: normal;
+}
+
+.navMenu {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.booksLink {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.categoriesLink {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  opacity: 50%;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.bookItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 1px;
+  margin: 20px;
+  padding: 20px;
+  height: 10.625rem;
+}
+
+.details {
+  opacity: 60%;
+}
+
+.title {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.375rem;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  font-weight: bold;
+}
+
+.name {
+  color: #4386bf;
+  font-size: 1.001rem;
+  font-weight: 300;
+}
+
+.action {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-top: 18px;
+  color: #4386bf;
+  font-size: 1.1rem;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.status {
+  font-size: 20px;
+  opacity: 50%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+}
+
+.chapter span {
+  opacity: 50%;
+}
+
+.chapter h3 {
+  color: #121212;
+  letter-spacing: -0.4px;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.btn {
+  width: 11.5rem;
+  height: 2.063rem;
+  background-color: #0290ff;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 10px;
+  border: none;
+}
+
+hr {
+  margin: 20px;
+  opacity: 50%;
+}
+
+.add h3 {
+  padding: 0 20px 20px 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.bTitle {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 50%;
+  padding: 15px;
+  margin-left: 20px;
+  border: 1px solid #e8e8e8;
+}
+
+.field {
+  background-color: #fff;
+  width: 25%;
+  padding: 15px;
+  margin-left: 20px;
+  border: 1px solid #e8e8e8;
+  opacity: 50%;
+  font-size: 15px;
+}
+
+.buttn {
+  width: 15%;
+  padding: 15px;
+  margin-left: 20px;
+  background-color: #0290ff;
+  color: #fff;
+  border: 1px solid #e8e8e8;
+}
