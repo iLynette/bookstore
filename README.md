@@ -1,60 +1,50 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Bookstore CMS
 The Bookstore is a website that helps you;
-- `Display a list of books.`
-- `Add a book.`
-- `Remove a selected book.`
-
+- Display a list of books.
+- Add a book.
+- Remove a selected book.
 
 ![screenshot](./pic.png)
-
-
-# Built with
-- React.js
-- HTML
-- CSS
-# Other tools
-- Babel compiler
-# Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built With
+- HTML5
+- CSS3
+- React
+- Linters
 
 ## installation
-In order to run on your local machine, type in;
 
-- `npx create-react-app my-app`
-- `cd my-app`
-- `npm start`
+To get a local copy up and running follow these simple example steps.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-The page will reload when you make changes.\
-You may also see any linter errors in the console.
-### `npm test`
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-### `npm run build`
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-### `npm run eject`
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- clone the repository by running
+``` https://github.com/iLynette/bookstore.git ```
+- navigate to the folder
+``` cd <DIRECTORY> ```
+- Install packages
+``` npm i ```
+- Run the app
+``` npm start ```
 
-# Author
+
+The page will be opened in your browser
+
+### Run linter tests
+
+- To run linter tests run :
+- npx stylelint "**/*.{css,scss}"
+- npx eslint .
+
+## Author
 :bust_in_silhouette: **: Acholah Lynette**
 - GitHub: [@iLynette](https://github.com/iLynette)
 - Twitter: [@acholah_lynette](https://twitter.com/acholah_lynette)
 - LinkedIn: [acholah lynette](https://www.linkedin.com/in/lynette-acholah/)
 
-## :handshake: Contributing
-Contributions, issues, and feature requests are welcome!
-## Show your support
-Give a :star:️ if you like this project!
-## Acknowledgments
+## 🤝 Contributing
 
-Bookstore CMS
-Web site created using create-react-app
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+## :memo: License
+This project is [MIT](./MIT.md) licensed.
