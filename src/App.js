@@ -6,12 +6,12 @@ import Categories from './components/Categories';
 
 const App = () => (
   <div className="nav">
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<BooksPage />} />
-          <Route path="/categories" element={<Categories />} />
-        </Routes>
-      </div>
+    <Navbar />
+    <Routes>
+      <Route exact path="/" element={<BooksPage />} />
+      <Route path="/categories" element={<Categories />} />
+    </Routes>
+  </div>
 );
 
 export default App;

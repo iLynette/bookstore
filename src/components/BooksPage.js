@@ -1,7 +1,7 @@
 import Books from './Books';
 
 const BooksPage = () => (
-    <Books />
+  <Books />
 );
 
 export default BooksPage;
