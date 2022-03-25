@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Bookstore CMS
 The Bookstore is a website that helps you;
-### `Display a list of books.`
-### `Add a book.`
-### `Remove a selected book.`
+- `Display a list of books.`
+- `Add a book.`
+- `Remove a selected book.`
 
 
 ![screenshot](./pic.png)
@@ -45,7 +45,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 # Author
-:bust_in_silhouette: **Author 1: Acholah Lynette**
+:bust_in_silhouette: **: Acholah Lynette**
 - GitHub: [@iLynette](https://github.com/iLynette)
 - Twitter: [@acholah_lynette](https://twitter.com/acholah_lynette)
 - LinkedIn: [acholah lynette](https://www.linkedin.com/in/lynette-acholah/)
