@@ -9,7 +9,6 @@ class App extends React.Component {
     return (
       <div className="nav">
         <Navbar />
-        <BooksPage />
         <Routes>
           <Route exact path="/" element={<BooksPage />} />
           <Route path="/categories" element={<Categories />} />
