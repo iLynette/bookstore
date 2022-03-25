@@ -1,15 +1,19 @@
+import { Routes, Route } from 'react-router-dom';
 import React from 'react';
 import Navbar from './components/Navbar';
-import Book from './components/Book';
-import AddBook from './components/AddBook';
+import BooksPage from './components/BooksPage';
+import Categories from './components/Categories';
 
 class App extends React.Component {
   render() {
     return (
       <div className="nav">
         <Navbar />
-        <Book />
-        <AddBook />
+        <BooksPage />
+        <Routes>
+          <Route exact path="/" element={<BooksPage />} />
+          <Route path="/categories" element={<Categories />} />
+        </Routes>
       </div>
     );
   }
