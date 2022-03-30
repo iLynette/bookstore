@@ -4,12 +4,9 @@ import { status } from '../redux/categories/categories';
 
 const Categories = () => {
   const dispatch = useDispatch();
-  const handleClick = () => {
-    dispatch(status());
-  };
   return (
     <div>
-      <button type="submit" className="submitBtn" handleClick={handleClick}>
+      <button type="submit" className="submitBtn" onClick={() => dispatch(status())}>
         Check Status
       </button>
     </div>
