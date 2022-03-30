@@ -11,7 +11,7 @@ const reducer = (state = defaultState, action) => {
       ];
     case REMOVE_BOOK:
       return [
-          ...state.filter((book) => book.id !== action.id)
+        ...state.filter((book) => book.id !== action.id),
       ];
     default:
       return state;
