@@ -8,7 +8,7 @@ export const status = (status) => ({
 const categoriesReducer = (state = [], action) => {
   switch (action.type) {
     case STATUS:
-      return 'Under Construction';
+      return [...state, 'Under Construction'];
     default:
       return state;
   }
