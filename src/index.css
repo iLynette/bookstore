@@ -154,7 +154,16 @@ hr {
 .bTitle {
   background-color: #fff;
   border-radius: 4px;
-  width: 50%;
+  width: 40%;
+  padding: 15px;
+  margin-left: 20px;
+  border: 1px solid #e8e8e8;
+}
+
+.bAuthor {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 30%;
   padding: 15px;
   margin-left: 20px;
   border: 1px solid #e8e8e8;
