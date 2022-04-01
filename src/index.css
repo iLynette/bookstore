@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,7 @@
   padding: 15px;
   background-color: #fff;
   box-shadow: 1px 1px 5px #858585;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navBar h3 {
@@ -63,6 +66,7 @@ button {
   margin: 20px;
   padding: 20px;
   height: 10.625rem;
+  font-family: 'RobotoSlab', sans-serif;
 }
 
 .details {
@@ -140,6 +144,7 @@ button {
   text-transform: uppercase;
   margin-top: 10px;
   border: none;
+  font-family: 'RobotoSlab', sans-serif;
 }
 
 hr {
@@ -156,6 +161,7 @@ hr {
   line-height: normal;
   letter-spacing: -0.18px;
   color: #888;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bTitle {
@@ -193,4 +199,6 @@ hr {
   background-color: #0290ff;
   color: #fff;
   border: 1px solid #e8e8e8;
+  font-family: 'RobotoSlab', sans-serif;
+  font-weight: bold;
 }
