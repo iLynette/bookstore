@@ -13,6 +13,10 @@ The Bookstore is a website that helps you;
 - React
 - Linters
 
+## Live Demo
+
+For the link to the live demo, [Netlify](https://lynettes-bookstore.netlify.app/)
+
 ## installation
 
 To get a local copy up and running follow these simple example steps.
