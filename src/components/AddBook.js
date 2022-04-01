@@ -11,10 +11,13 @@ const AddBook = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const id = uuidv4();
     const newBook = {
-      id: uuidv4(),
+      id,
       title,
       author,
+      item_id: id,
+      category: 'Gonga mguu',
     };
     dispatch(addBook(newBook));
     setAuthor('');

@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import { getBooks, removeBook } from '../redux/books/books';
 
 const Book = () => {
   const books = useSelector((state) => state.booksReducer);
   const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getBooks());
+  }, []);
   if (books !== []) {
     return (
       <>
