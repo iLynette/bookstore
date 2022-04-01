@@ -47,6 +47,13 @@
   font-weight: 100;
 }
 
+button {
+  background-color: #fff;
+  border: #fff;
+  font-size: 15px;
+  color: #4386bf;
+}
+
 .bookItems {
   display: flex;
   justify-content: space-between;
@@ -154,7 +161,7 @@ hr {
 .bTitle {
   background-color: #fff;
   border-radius: 4px;
-  width: 40%;
+  width: 45%;
   padding: 15px;
   margin-left: 20px;
   border: 1px solid #e8e8e8;
@@ -171,7 +178,7 @@ hr {
 
 .field {
   background-color: #fff;
-  width: 25%;
+  width: 30%;
   padding: 15px;
   margin-left: 20px;
   border: 1px solid #e8e8e8;
