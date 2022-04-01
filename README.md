@@ -6,7 +6,7 @@ The Bookstore is a website that helps you;
 - Add a book.
 - Remove a selected book.
 
-![screenshot](./pic.png)
+![screenshot](./img.png)
 ## Built With
 - HTML5
 - CSS3

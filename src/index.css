@@ -67,6 +67,7 @@ button {
   padding: 20px;
   height: 10.625rem;
   font-family: 'RobotoSlab', sans-serif;
+  box-shadow: -1px -1px 15px 2px #c0b5b5;
 }
 
 .details {
