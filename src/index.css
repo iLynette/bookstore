@@ -206,7 +206,6 @@ hr {
 
 @media screen and (max-width: 768px) {
   .navBar {
-    width: 140%;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -214,4 +213,25 @@ hr {
     box-shadow: 1px 1px 5px #858585;
     font-family: 'Montserrat', sans-serif;
   }
+
+  .add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .bTitle {
+    width: 400px;
+  }
+
+  .bAuthor {
+    width: 400px;
+  }
+
+  .buttn {
+    width: 200px;
+  }
+
 }
