@@ -208,10 +208,22 @@ hr {
   .navBar {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1px;
     text-align: center;
     box-shadow: 1px 1px 5px #858585;
     font-family: 'Montserrat', sans-serif;
+  }
+
+  .navBar h3 {
+    font-size: 18px;
+  }
+
+  .booksLink {
+    font-size: 15px;
+  }
+
+  .categoriesLink {
+    font-size: 15px;
   }
 
   .add {
@@ -232,6 +244,10 @@ hr {
 
   .buttn {
     width: 200px;
+  }
+
+  .bookItems {
+
   }
 
 }
