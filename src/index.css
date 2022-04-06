@@ -247,7 +247,15 @@ hr {
   }
 
   .bookItems {
-
+    display: flex;
   }
 
+  .action {
+    display: flex;
+    gap: 10px;
+  }
+
+  .progress {
+    display: none;
+  }
 }
